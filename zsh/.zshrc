@@ -53,7 +53,7 @@ plugins=(git brew bundler gem jsontools pip python rails sublime sudo kubectl)
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -96,3 +96,6 @@ export PATH="/usr/local/opt/scala@2.11/bin:$PATH"
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # must last source
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
