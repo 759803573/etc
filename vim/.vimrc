@@ -13,7 +13,7 @@ call vundle#begin()
   Plugin 'tpope/vim-commentary'
   Plugin 'scrooloose/nerdtree'
   Plugin 'scrooloose/syntastic'
-  Plugin 'valloric/youcompleteme'
+  "Plugin 'valloric/youcompleteme'
   Plugin 'tpope/vim-surround'
   Plugin 'thinca/vim-quickrun'
   Plugin 'sjl/gundo.vim'
@@ -24,6 +24,7 @@ call vundle#begin()
   Plugin 'bronson/vim-trailing-whitespace'
   Plugin 'jelera/vim-javascript-syntax'
   Plugin 'tpope/vim-fugitive'
+  Plugin 'tpope/vim-rails'
   Plugin 'heavenshell/vim-jsdoc'
 call vundle#end()
 
