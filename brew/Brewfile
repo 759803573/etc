@@ -1,8 +1,3 @@
-==> New Formulae
-cyrus-sasl
-klee
-python-tabulate
-wllvm
 tap "aws/tap"
 tap "go-delve/delve"
 tap "homebrew/bundle"
