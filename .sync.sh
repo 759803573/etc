@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function backup() {
-  for config in `ls -ld -- */`
+  for config in `ls -d -- */`
   do
     echo backup $config
     bash $config/.backup.sh
