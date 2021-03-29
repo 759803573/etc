@@ -1,0 +1,151 @@
+==> New Formulae
+as-tree
+aws/tap/aws-sam-cli-nightly
+clusterctl
+djl-serving
+enzyme
+glibc
+gopass-jsonapi
+haskell-language-server
+iconsur
+influxdb@1
+kertish-dfs
+leaf-proxy
+libunwind
+linux-pam
+lttng-ust
+moto
+numactl
+obfs4proxy
+orgalorg
+pandoc-plot
+pure
+pyqt-3d
+pyqt-builder
+pyqt-networkauth
+python-tk@3.9
+qt-libiodbc
+qt-mariadb
+qt-mysql
+qt-percona-server
+qt-postgresql
+qt-unixodbc
+rosa-cli
+spaceship
+threemux
+timg
+tz
+virtualenv
+xray
+zlib-ng
+==> Renamed Formulae
+kde-extra-cmake-modules -> extra-cmake-modules
+kde-karchive -> karchive
+kde-kdoctools -> kdoctools
+kde-ki18n -> ki18n
+kde-threadweaver -> threadweaver
+minizip2 -> minizip-ng
+pyqt5 -> pyqt@5
+==> New Casks
+airbuddy
+alipay-development-assistant
+around
+betelguese
+brooklite
+celestia
+cinderella
+code-composer-studio
+coinomi-wallet
+dnagedcom
+drovio
+elpki
+finisher-fluxx
+finisher-micro
+finisher-neo
+finisher-voodoo
+foobar2000
+free42-binary
+free42-decimal
+internxt-drive
+microsoft-remote-desktop
+nure
+offset-explorer
+plasticscm-cloud-edition
+remnote
+simplelink-msp432-sdk
+simplelink-msp432e4-sdk
+simtoolkitpro
+swiftbar
+uniflash
+veepn
+volanta
+xbar
+==> Deleted Casks
+adobe-dng-converter
+kafka-tool
+mist
+pibakery
+psequel
+raven
+use-engine
+veonim
+tap "aws/tap"
+tap "go-delve/delve"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "homebrew/services"
+brew "autoconf"
+brew "python@3.9"
+brew "autojump"
+brew "automake"
+brew "awscli"
+brew "pkg-config"
+brew "emacs"
+brew "cask"
+brew "coreutils"
+brew "delve"
+brew "docker"
+brew "dos2unix"
+brew "ghostscript"
+brew "go"
+brew "little-cms2"
+brew "imagemagick"
+brew "kubernetes-cli"
+brew "libksba"
+brew "libyaml"
+brew "maven"
+brew "memcached"
+brew "mysql", restart_service: true
+brew "ncdu"
+brew "nginx"
+brew "node"
+brew "p7zip"
+brew "postgresql", restart_service: true
+brew "reattach-to-user-namespace"
+brew "redis"
+brew "spark"
+brew "telnet"
+brew "the_silver_searcher"
+brew "tmux"
+brew "tree"
+brew "wget"
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
+brew "aws/tap/aws-sam-cli"
+cask "1password"
+cask "baiducloud"
+cask "calibre"
+cask "evernote"
+cask "gitkraken"
+cask "mysqlworkbench"
+cask "postman"
+cask "qq"
+cask "sublime-text"
+cask "teamviewer"
+cask "ticktick"
+cask "vagrant"
+cask "virtualbox"
+cask "visualvm"
+cask "winzip"
+cask "yinxiangbiji"
