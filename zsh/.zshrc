@@ -89,9 +89,6 @@ export GOPATH=$HOME/mygo
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 export PATH="/usr/local/sbin:$PATH"
 
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
-
 # scala
 export SCALA_HOME=/usr/local/opt/scala/idea
 export PATH="/usr/local/opt/scala@2.11/bin:$PATH"
