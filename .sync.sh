@@ -8,6 +8,7 @@ function backup() {
   done
 
   git add .
+  git pull --rebase
   git commit -m "auto-commit `date \"+ %Y-%m-%d\"`"
   git push origin master
 }
